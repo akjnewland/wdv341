@@ -13,11 +13,13 @@
   <hr>
 
   <?php
-  $my_school = "DMACC"
+    $my_school = "DMACC";
 
-  echo $my_school;
+    echo $my_school;
+    echo '<br>';
+    echo "Data Type of \$my_school is: " . gettype($my_school);
 
-  echo "Data Type of $my_school is: " . gettype($my_school);
-  ?>
+    print "Hello Again World!";
+    ?>
 </body>
 </html>

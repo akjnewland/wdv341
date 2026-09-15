@@ -15,11 +15,10 @@
 
 <body>
 <h1>WDV 341 Intro to PHP</h1>
-<h2>Austin Newland Homework Page</h2>
-
-  <a href="https://github.com/akjnewland/wdv341" target="_blank">ANewland WDV341 Repository</a>
-  <br>
-  <a href="https://github.com/akjnewland/wdv341/blob/main/unit2/2-1.php" target="_blank">2-1 Assignment</a>
-  
+<h2>Austin Newland | Homework Page</h2>
+<ul>
+  <li><a href="https://github.com/akjnewland/wdv341" target="_blank">ANewland WDV341 Repository</a></li>
+  <li><a href="https://github.com/akjnewland/wdv341/blob/main/unit2/2-1.php" target="_blank">2-1 Assignment</a></li>
+</ul>
 </body>
 </html>

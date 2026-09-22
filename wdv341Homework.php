@@ -19,6 +19,7 @@
 <ul>
   <li><a href="https://github.com/akjnewland/wdv341" target="_blank">ANewland WDV341 Repository</a></li>
   <li><a href="https://github.com/akjnewland/wdv341/blob/main/unit2/2-1.php" target="_blank">2-1 Assignment</a></li>
+  <li><a href="https://github.com/akjnewland/wdv341/blob/main/unit3/phpFunctions.php" target="_blank">3-1 PHP Functions</li>
 </ul>
 </body>
 </html>

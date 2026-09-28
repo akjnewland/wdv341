@@ -54,7 +54,7 @@
     formatTelNum(1234567890);
 
     echo '<h2>Format a parameter as US Currency with a $ sign.</h2>';
-    formatCurrency(1234.56); // could only get the decimal in the right place by adding it here
+    formatCurrency(1234.56);
    ?>
 </body>
 </html>

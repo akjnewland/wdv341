@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DMACC IT & Design Interest Form</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+  <header>
+    <h1>DMACC IT & Design Interest Form</h1>
+    <h2>Majors:<br> Computer Information Systems, Graphic Design, and Web Development</h2>
+  </header>
+  
+  <form id="form1" name="form1" method="post" action="formHandler.php">
+
+    <legend>Please fill out the form below.</legend>
+
+    <!-- Text input fields -->
+    <p>
+      <label for="first_name">First Name:</label><br>
+      <input type="text" name="first_name" id="first_name">
+    </p>
+
+    <p>
+      <label for="last_name">Last Name:</label><br>
+      <input type="text" name="last_name" id="last_name">
+    </p>
+
+    <p>
+      <label for="school_name">School Name:</label><br>
+      <input type="text" name="school_name" id="school_name">
+    </p>
+
+    <p>
+      <label for="email">Email:</label><br>
+      <input type="email" name="email" id="email">
+    </p>
+
+    <!-- Radio buttons -->
+    <p>
+      <label for="academic_range">Academic Standing:</label><br>
+      
+      <label><input type="radio" name="academic_range" id="hs" value="Highschool Student"> Highschool Student</label>
+      
+      <label><input type="radio" name="academic_range" id="freshman" value="Freshman"> Freshman</label>
+      
+      <label><input type="radio" name="academic_range" id="sophomore" value="Sophomore"> Sophomore</label>
+    </p>
+
+    <!-- Dropdown menu -->
+    <p>
+      <label for="major">Major:</label><br>
+      <select name="major" id="major">
+        <option value="">Choose a major...</option>
+        <option value="CIS">Computer Information Systems</option>
+        <option value="GRD">Graphic Design</option>
+        <option value="WDV">Web Development</option>
+      </select>
+    </p>
+
+    <!-- Checkboxes -->
+    <p>
+      <label for="contact[]">
+        <input type="checkbox" name="contact[]" id="programInfoContact" value="progInfo"> Please contact me with program information.
+      </label>
+    </p>
+    
+    <p>
+      <label>
+         <input type="checkbox" name="contact[]" id="programAdvisorContact" value="progAdvisor"> I would like to contact an program advisor.
+      </label>
+    </p>
+
+    <!-- Textarea -->
+    <p>
+      <label for="comments">Comments:</label><br>
+      <textarea name="comments" id="comments" rows="10" cols="50" placeholder="Leave a comment..."></textarea>
+    </p>
+
+    <!-- honeypot field -->
+     <div style="display:none;">
+      <label for="website">Website</label>
+      <input type="text" id="website" name="website">
+     </div>
+
+    <p>
+      <input type="submit" name="button" id="button" value="Submit">
+      <input type="reset" name="button2" id="button2" value="Reset">
+    </p>
+
+  </form>
+
+  <p>&nbsp;</p>
+</body>
+
+</html>

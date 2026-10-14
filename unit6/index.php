@@ -149,6 +149,11 @@
     position: absolute;
     left: -9999px;
     }
+
+    .altTextField {
+      font-size:0.8em;
+      margin-left:-3em;
+    }
   </style>
 </head>
 <body>
@@ -210,7 +215,10 @@
         <legend>Pet Image</legend>
         <label for="imageFile">Choose an Image:</label>
         <input type="file" id="imageFile" name="imageFile"><br>
-        <input type="text" id="imageDescription" name="imageDescription">
+        
+        <label for="imageDescription" class="altTextField">Describe this image:
+          <input type="text" id="imageDescription" name="imageDescription" max="20">
+        </label>
 
         <br>
 

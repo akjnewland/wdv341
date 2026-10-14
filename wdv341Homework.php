@@ -22,6 +22,7 @@
   <li><a href="unit3/phpFunctions.php">3-1 PHP Functions</li>
   <li><a href="unit4/index.php">4-1 Creating a Student Class</li>
   <li><a href="unit5/input-form.html">5-1 HTML Form Processor</li>
+  <li><a href="unit6/index.php">6-1 Image File Uploader</li>
 </ul>
 <p><a href="phpinfo.php">PHP Info</a></p>
 </body>

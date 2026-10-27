@@ -245,7 +245,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
 
   try {
-    $mail->SMTPDebug = 0; // set to 2 for verbose debug print to page.
+    $mail->SMTPDebug = 2; // set to 2 for verbose debug print to page.
     $mail->isSMTP(); // Use SMTP to send.
     $mail->Host = 'smtp.gmail.com'; // Specify Gmail's SMTP server.
     $mail->SMTPAuth = true; // Enable SMTP authentication.

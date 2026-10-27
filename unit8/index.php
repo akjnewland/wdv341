@@ -9,8 +9,5 @@
   <title>WDV341 DB Connect</title>
 </head>
 <body>
-  <ul>
-    <li><a href="includes/dbConnect.php">dbConnect</li>
-</ul>
 </body>
 </html>

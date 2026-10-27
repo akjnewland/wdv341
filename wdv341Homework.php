@@ -24,6 +24,7 @@
   <li><a href="unit5/input-form.html">5-1 HTML Form Processor</li>
   <li><a href="unit6/index.php">6-1 Image File Uploader</li>
   <li><a href="unit7/contact-form.php">7-1 Contact Form With Email<li>
+  <li><a href="unit8/index.php">8-2 Create a Connection File</li>
 </ul>
 <p><a href="phpinfo.php">PHP Info</a></p>
 </body>

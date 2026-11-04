@@ -26,6 +26,7 @@
   <li><a href="unit7/contact-form.php">7-1 Contact Form With Email<li>
   <li><a href="unit8/index.php">8-2 Create a Connection File</li>
   <li><a href="unit9/selectEvents.php">9-1 Create selectEvents</li>
+  <li><a href="unit9/selectOneEvent.php">9-2 Create selectOneEvent.php</li>
 </ul>
 <p><a href="phpinfo.php">PHP Info</a></p>
 </body>

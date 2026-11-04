@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WDV341 DB Connect</title>
+  <title>Events</title>
   <style>
     * {
       box-sizing:border-box;
@@ -53,7 +53,7 @@
       margin:1em;
       text-align:center;
       font-weight:bold;
-      background-color:#d3c7a2;
+      background-color: #ffebcd;
     }
   </style>
 </head>
@@ -99,11 +99,11 @@
         }
       } catch (PDOException $e) {
         error_log($e->getMessage());
-        echo '<div class"alerts"><h2>Events are unavailable at this time.</h2></div>';
-        echo '<div class"alerts"><p>If you think this is incorrect, please contact the webmaster or try again later.</p></div>';
+        echo '<div class="alerts"><h2>Events are unavailable at this time.</h2></div>';
+        echo '<div class="alerts"><p>If you think this is incorrect, please contact the webmaster or try again later.</p></div>';
       }
     } else {
-      echo '<div class"alerts"><h2>Database connection failed.</h2></div>';
+      echo '<div class="alerts"><h2>Database connection failed.</h2></div>';
     }
 
     
